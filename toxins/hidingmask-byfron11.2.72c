@@ -3,6 +3,9 @@ Includes
   Anti game recording
   Redirect CoreGUI to Drawing Lib (the first of its kind)
   Remove all references to RobloxPlayer
+  [TODO]
+    - Implement measures for anti-detection across different sessions based on the clipboard of the user
+    - Implement changing byfron detection's HWID to prevent HWID bans and leaving it to another HWID of a user, optionally able to ban another user if detected
 */
 
 #include "detection_utils.h"
