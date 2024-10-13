@@ -22,7 +22,7 @@ void passive_byfron() {
 void initialize_detection_system() {
     double system_integrity = calculate_system_integrity();
     if (system_integrity < THRESHOLD) {
-        alert_admin();
+        passive_byfron(); // retry
     }
     initialize_parameters();
     monitor_processes();
